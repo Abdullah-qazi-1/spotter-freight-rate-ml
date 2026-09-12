@@ -6,11 +6,12 @@ This repository contains my solution for the Spotter Machine Learning Engineer a
 
 ## 1. Project Overview
 
-The project requires delivering:
-1. **Validation Predictions (`validation_predictions.csv`)**: Predictions for the 12,000 unlabeled loads in `data/validation.csv` (`TE-000001` to `TE-012000`).
-2. **December Rate Predictions (`december_chart_inputs.csv`)**: 31-day forecast for a fixed Lexington → Fort Wayne corridor in December 2025.
-3. **Assessment Report (`report.pdf`)**: Summary of the data exploration, validation strategy, model benchmarks, and the generated December prediction chart.
-4. **Codebase**: Modular, reproducible training and inference code in `src/`.
+The project deliverables include:
+- **Video Walkthrough**: 🎥 [**Watch the 3-Minute Loom Walkthrough**](https://www.loom.com/share/6eec4905e5c8425fa58c7406c1f4b84d)
+- **Validation Predictions (`validation_predictions.csv`)**: Predictions for the 12,000 unlabeled loads in `data/validation.csv` (`TE-000001` to `TE-012000`).
+- **December Rate Predictions (`december_chart_inputs.csv`)**: 31-day forecast for a fixed Lexington → Fort Wayne corridor in December 2025.
+- **Assessment Report (`report.pdf`)**: Technical report summarizing data exploration, validation strategy, model benchmarks, and the generated December rate chart.
+- **Codebase**: Modular, reproducible training and inference code in `src/`.
 
 ---
 
