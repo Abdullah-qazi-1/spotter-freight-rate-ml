@@ -1,4 +1,4 @@
-"""Train the final CatBoost model from the notebook."""
+"""Model training script with time-based validation."""
 
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ from src.features import (
     transform_target,
 )
 
-# Exact CatBoost GridSearch winners from the notebook.
+# CatBoost hyperparameters from tuning
 CATBOOST_PARAMS = {
     "depth": 6,
     "iterations": 500,
@@ -83,7 +83,6 @@ def main() -> None:
     print(f"  MAE:  {metrics['mae']:.4f}")
     print(f"  RMSE: {metrics['rmse']:.4f}")
     print(f"  R^2:  {metrics['r2']:.4f}")
-    print("Notebook reference for the same CatBoost configuration: MAE 133.0854, RMSE 641.1042, R^2 0.8235")
 
     pickup_map, delivery_map = city_coordinate_maps(cleaned)
 

@@ -1,9 +1,4 @@
-"""Feature engineering used in the final notebook pipeline.
-
-This module reconstructs the preprocessing from Freight_Rate_Data_Audit.ipynb
-(Section 18 cleaning + Section 21 feature preparation). It does not add
-features that were not used by the final CatBoost model.
-"""
+"""Feature engineering and preprocessing pipeline."""
 
 from __future__ import annotations
 
